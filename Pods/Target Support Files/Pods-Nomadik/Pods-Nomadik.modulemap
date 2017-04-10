@@ -1,0 +1,6 @@
+framework module Pods_Nomadik {
+  umbrella header "Pods-Nomadik-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		2434B15E1E03A6BD0089F736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B15D1E03A6BD0089F736 /* AppDelegate.swift */; };
-		2434B1601E03A6BD0089F736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B15F1E03A6BD0089F736 /* ViewController.swift */; };
 		2434B1631E03A6BD0089F736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2434B1611E03A6BD0089F736 /* Main.storyboard */; };
 		2434B1651E03A6BD0089F736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2434B1641E03A6BD0089F736 /* Assets.xcassets */; };
 		2434B1681E03A6BD0089F736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2434B1661E03A6BD0089F736 /* LaunchScreen.storyboard */; };
+		2434B1781E03B1240089F736 /* LandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B1771E03B1240089F736 /* LandingScreenViewController.swift */; };
+		2434B17A1E03B2C60089F736 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B1791E03B2C60089F736 /* CreateAccountViewController.swift */; };
+		2434B17C1E03B2DF0089F736 /* TravelScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B17B1E03B2DF0089F736 /* TravelScreenViewController.swift */; };
+		2434B17E1E044F550089F736 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B17D1E044F550089F736 /* MapViewController.swift */; };
+		2434B1841E04D7130089F736 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B1831E04D7130089F736 /* WebViewController.swift */; };
+		2434B1861E04D7ED0089F736 /* TravelDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B1851E04D7ED0089F736 /* TravelDestinationViewController.swift */; };
+		2434B1881E04D8360089F736 /* LocationInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434B1871E04D8360089F736 /* LocationInfoTableViewController.swift */; };
+		2434B18A1E05C9270089F736 /* Pamega demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2434B1891E05C9270089F736 /* Pamega demo.otf */; };
+		247253C11E43A3AC000796F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 247253C01E43A3AC000796F6 /* GoogleService-Info.plist */; };
+		249326921E9BD9B700C0DEFE /* NewDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249326911E9BD9B700C0DEFE /* NewDestinationViewController.swift */; };
+		249326961E9C247800C0DEFE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249326951E9C247800C0DEFE /* Location.swift */; };
+		8EACE3ECD5203D8034D93638 /* Pods_Nomadik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A8EB6177FA611D79E8EF95 /* Pods_Nomadik.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2434B15A1E03A6BD0089F736 /* Nomadik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomadik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2434B15D1E03A6BD0089F736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2434B15F1E03A6BD0089F736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2434B1621E03A6BD0089F736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2434B1641E03A6BD0089F736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2434B1671E03A6BD0089F736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2434B1691E03A6BD0089F736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2434B1771E03B1240089F736 /* LandingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingScreenViewController.swift; sourceTree = "<group>"; };
+		2434B1791E03B2C60089F736 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		2434B17B1E03B2DF0089F736 /* TravelScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelScreenViewController.swift; sourceTree = "<group>"; };
+		2434B17D1E044F550089F736 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2434B1831E04D7130089F736 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2434B1851E04D7ED0089F736 /* TravelDestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDestinationViewController.swift; sourceTree = "<group>"; };
+		2434B1871E04D8360089F736 /* LocationInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfoTableViewController.swift; sourceTree = "<group>"; };
+		2434B1891E05C9270089F736 /* Pamega demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pamega demo.otf"; path = "../../pamega_script/Pamega demo.otf"; sourceTree = "<group>"; };
+		247253C01E43A3AC000796F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		249326911E9BD9B700C0DEFE /* NewDestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDestinationViewController.swift; sourceTree = "<group>"; };
+		249326951E9C247800C0DEFE /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		58A8EB6177FA611D79E8EF95 /* Pods_Nomadik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nomadik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAEA2BBDCC9FA280A5119489 /* Pods-Nomadik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nomadik.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nomadik/Pods-Nomadik.release.xcconfig"; sourceTree = "<group>"; };
+		EC756820F1114D422707BA81 /* Pods-Nomadik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nomadik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nomadik/Pods-Nomadik.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EACE3ECD5203D8034D93638 /* Pods_Nomadik.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				2434B15C1E03A6BD0089F736 /* Nomadik */,
 				2434B15B1E03A6BD0089F736 /* Products */,
+				6F87BA885B8D1D532DA037A2 /* Pods */,
+				DD6A1166C3320F9A656D93CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,57 @@
 		2434B15C1E03A6BD0089F736 /* Nomadik */ = {
 			isa = PBXGroup;
 			children = (
+				249326941E9C246200C0DEFE /* Models */,
+				2434B1901E0B96670089F736 /* Controllers */,
 				2434B15D1E03A6BD0089F736 /* AppDelegate.swift */,
-				2434B15F1E03A6BD0089F736 /* ViewController.swift */,
+				2434B1891E05C9270089F736 /* Pamega demo.otf */,
 				2434B1611E03A6BD0089F736 /* Main.storyboard */,
+				247253C01E43A3AC000796F6 /* GoogleService-Info.plist */,
 				2434B1641E03A6BD0089F736 /* Assets.xcassets */,
 				2434B1661E03A6BD0089F736 /* LaunchScreen.storyboard */,
 				2434B1691E03A6BD0089F736 /* Info.plist */,
 			);
 			path = Nomadik;
+			sourceTree = "<group>";
+		};
+		2434B1901E0B96670089F736 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2434B1771E03B1240089F736 /* LandingScreenViewController.swift */,
+				2434B1791E03B2C60089F736 /* CreateAccountViewController.swift */,
+				2434B17D1E044F550089F736 /* MapViewController.swift */,
+				2434B17B1E03B2DF0089F736 /* TravelScreenViewController.swift */,
+				2434B1831E04D7130089F736 /* WebViewController.swift */,
+				2434B1851E04D7ED0089F736 /* TravelDestinationViewController.swift */,
+				2434B1871E04D8360089F736 /* LocationInfoTableViewController.swift */,
+				249326911E9BD9B700C0DEFE /* NewDestinationViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		249326941E9C246200C0DEFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				249326951E9C247800C0DEFE /* Location.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6F87BA885B8D1D532DA037A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC756820F1114D422707BA81 /* Pods-Nomadik.debug.xcconfig */,
+				EAEA2BBDCC9FA280A5119489 /* Pods-Nomadik.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD6A1166C3320F9A656D93CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58A8EB6177FA611D79E8EF95 /* Pods_Nomadik.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2434B16C1E03A6BD0089F736 /* Build configuration list for PBXNativeTarget "Nomadik" */;
 			buildPhases = (
+				650E9C9AAC2F86BE6E6ADBB5 /* [CP] Check Pods Manifest.lock */,
 				2434B1561E03A6BD0089F736 /* Sources */,
 				2434B1571E03A6BD0089F736 /* Frameworks */,
 				2434B1581E03A6BD0089F736 /* Resources */,
+				FD5D3C56D520C2C5DD3A8591 /* [CP] Embed Pods Frameworks */,
+				C31027F243406EEDF7FDBE7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +169,7 @@
 				TargetAttributes = {
 					2434B1591E03A6BD0089F736 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -123,20 +197,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				2434B1681E03A6BD0089F736 /* LaunchScreen.storyboard in Resources */,
+				247253C11E43A3AC000796F6 /* GoogleService-Info.plist in Resources */,
 				2434B1651E03A6BD0089F736 /* Assets.xcassets in Resources */,
+				2434B18A1E05C9270089F736 /* Pamega demo.otf in Resources */,
 				2434B1631E03A6BD0089F736 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		650E9C9AAC2F86BE6E6ADBB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C31027F243406EEDF7FDBE7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nomadik/Pods-Nomadik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5D3C56D520C2C5DD3A8591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nomadik/Pods-Nomadik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2434B1561E03A6BD0089F736 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2434B1601E03A6BD0089F736 /* ViewController.swift in Sources */,
+				249326921E9BD9B700C0DEFE /* NewDestinationViewController.swift in Sources */,
+				2434B17A1E03B2C60089F736 /* CreateAccountViewController.swift in Sources */,
+				249326961E9C247800C0DEFE /* Location.swift in Sources */,
+				2434B17E1E044F550089F736 /* MapViewController.swift in Sources */,
+				2434B1781E03B1240089F736 /* LandingScreenViewController.swift in Sources */,
+				2434B1841E04D7130089F736 /* WebViewController.swift in Sources */,
+				2434B17C1E03B2DF0089F736 /* TravelScreenViewController.swift in Sources */,
 				2434B15E1E03A6BD0089F736 /* AppDelegate.swift in Sources */,
+				2434B1861E04D7ED0089F736 /* TravelDestinationViewController.swift in Sources */,
+				2434B1881E04D8360089F736 /* LocationInfoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,23 +381,27 @@
 		};
 		2434B16D1E03A6BD0089F736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC756820F1114D422707BA81 /* Pods-Nomadik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Nomadik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.Grady.Nomadik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2434B16E1E03A6BD0089F736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEA2BBDCC9FA280A5119489 /* Pods-Nomadik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Nomadik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.Grady.Nomadik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +424,7 @@
 				2434B16E1E03A6BD0089F736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

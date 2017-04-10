@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Icons">
+      <FileRef
+         location = "group:World Map.png">
+      </FileRef>
+      <FileRef
+         location = "group:List.png">
+      </FileRef>
+      <FileRef
+         location = "group:Beach.png">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Nomadik/Assets.xcassets/AppIcon.appiconset/iOS">
+   </FileRef>
+   <FileRef
+      location = "group:Nomadik.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
